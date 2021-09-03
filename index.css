@@ -1,7 +1,31 @@
 body {
    background-color: hsl(233, 47%, 7%);
+   color: seashell;
+
 }
 
+section {
+    width: 97vw;
+    height: 98vh;
+    position: relative;
+}
+
+.containerPrincipal{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container1 {
+}
+
+.container2 {
+    background-image: url("./imagens/image-header-desktop.jpg");
+}
 
 
 
@@ -24,3 +48,18 @@ body {
 
 .attribution {color: white; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
